@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://wallpapercrafter.com/sizes/1920x1080/45239-Tuscany-Italy-Europe-hills-green-field-4K.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.caixa-maior {
+  background: rgba(0, 0, 0, 0.8); /* melhor que opacity */
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 95%;
+  max-width: 450px;
+}
+
+.caixa-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-cidade {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 18px;
+  background-color: #7c7c7c2b;
+  color: #ffffff;
+}
+
+.btn-buscar {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #7c7c7c2b;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.img-busca {
+  width: 24px;
+  height: 24px;
+}
+.cidade{
+    color:#ffffff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+.temperatura{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caixa_menor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-previsao{
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.umidade{
+  color: #ffffff;
+  margin-top: 20px;
+}

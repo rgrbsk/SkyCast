@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Previsão do tempo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="caixa-maior">
+    <div class="caixa-input">
+      <input class="input-cidade" placeholder="Digite o nome da cidade">
+      <button class="btn-buscar" onclick="buttonClicked()">
+        <img class="img-busca" src="/images/Search.svg" alt="Buscar">
+      </button>
+    </div>
+
+    <div class="caixa-media">
+        <h2 class="cidade">- - -</h2>
+        <p class="temperatura">-°C</p>
+    </div>
+    
+    <div class="caixa-menor">
+        <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="Ícone do clima">
+        <p class="texto-previsao">Sem info</p>
+    </div>
+    
+    <p class="umidade">Umidade: Sem info</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
