@@ -1,6 +1,5 @@
 # 🌤️ SkyCast
 
-![Weather Icon](https://img.icons8.com/color/48/000000/weather.png)  
 **SkyCast** é um aplicativo de previsão do tempo moderno e interativo, que mostra a temperatura, umidade e condições do clima em qualquer cidade do mundo. 
 
 ---
